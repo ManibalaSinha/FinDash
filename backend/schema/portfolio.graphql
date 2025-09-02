@@ -1,0 +1,23 @@
+type Trade {
+  id: ID!
+  asset: String!
+  quantity: Float!
+  price: Float!
+  currency: String!
+  pnl: Float
+}
+
+type Portfolio {
+  id: ID!
+  name: String!
+  trades: [Trade!]!
+}
+
+type Query {
+  getPortfolios: [Portfolio!]!
+  getTrades(portfolioId: ID!): [Trade!]!
+}
+
+type Subscription {
+  tradeUpdated(portfolioId: ID!): Trade
+}
