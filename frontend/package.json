@@ -1,6 +1,8 @@
 {
   "name": "fin-dash-frontend",
   "version": "1.0.0",
+  "homepage": "https://ManibalaSinha.github.io/FinDash",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
