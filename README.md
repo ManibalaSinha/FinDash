@@ -137,7 +137,3 @@ FinDash demonstrates following in fintech/data-heavy environments**:
 * Integrating **GraphQL APIs** and backend microservices
 * Managing application state with **Redux Toolkit**
 * Developing a **responsive, secure, and scalable** frontend
-
----
-
-Do you want me to **also write a short “resume-friendly” version of this README** for recruiters so it highlights the key skills immediately?
